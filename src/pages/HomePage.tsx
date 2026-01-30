@@ -4,6 +4,7 @@ import { profile } from "../profile";
 export default function Homepage() {
   return (
     <section className="stack gap-lg">
+        <div className="HomeGrid">
       <div className="Adam">
         <p className="pill">{profile.lilbio}</p>
         <h1 className="Adam__title">Hi, I’m {profile.name}.</h1>
@@ -16,6 +17,15 @@ export default function Homepage() {
           <Link className="btn" to="/contact">
             Contact
           </Link>
+        </div>
+        </div>
+
+        <div className="HomePhotos">
+          <img
+            src={`${import.meta.env.BASE_URL}photos/IMG_0186.jpeg`}
+            alt="Adam"
+            loading="lazy"
+          />
         </div>
       </div>
 

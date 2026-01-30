@@ -26,9 +26,18 @@ export const profile = {
     fax: "Recently broken but I can still be reached by carrier pigeon in the Wolseley Area",
   },
   skills: {
-    languages: ["Java", "Javascript", "TypeScript", "", "Python", "SQL"],
+    coursework: [
+      "Data Structures & Algorithms",
+      "Adv. DB Systems",
+      "Adv. Internet Programming",
+      "HCI",
+      "Computer Architecture and System Software",
+      "Software Architecture",
+      "Machine Learning",
+    ],
+    languages: ["Java", "Javascript", "TypeScript", "Python", "SQL"],
+
     frontend: ["NodeJS", "Express", "React", "Vite", "HTML/CSS", "Tailwind"],
-    backend: ["DBeaver", "MongoDB", "Spring Boot", "REST APIs"],
     dataCloud: [
       "Azure Data Factory",
       "Databricks",
@@ -36,6 +45,8 @@ export const profile = {
       "Azure SQL",
       "Power BI",
     ],
+    backend: ["DBeaver", "MongoDB", "Spring Boot", "REST APIs", "PostgreSQL"],
+
     tooling: ["Git/GitHub", "VS Code"],
   },
   projects: [
@@ -43,22 +54,41 @@ export const profile = {
       title: "Scrabble Solver (Web App)",
       description:
         "Full-stack Scrabble helper that generates valid words and best plays from a board + rack, with scoring and UI to explore results.",
-      tech: ["React", "TypeScript", "Java", "Spring Boot", "Javascript", "Vite", "Maven"],
-      links: [{ label: "Repo", href: "https://github.com/adamschrofel/Scrabble-Application" }],
+      tech: [
+        "React",
+        "TypeScript",
+        "Java",
+        "Spring Boot",
+        "Javascript",
+        "Vite",
+        "Maven",
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/adamschrofel/Scrabble-Application",
+        },
+      ],
     },
     {
       title: "Poker Range Parser / Solver (WIP)",
       description:
         "Preflop Range Chart tool using. Working towards a full-stack solver feature for 6-max to Full-Ring tournament style.",
-      tech: ["Java", "Testing", "Algorithms"],
-      links: [{ label: "Repo", href: "https://github.com/adamschrofel/Poker" }]
+      tech: ["Java", "React", "Javascript", "Vite", "Maven", "Algorithms"],
+      links: [{ label: "Repo", href: "https://github.com/adamschrofel/Poker" }],
     },
     {
-      title: "Glanceable Interfaces Literature Review (Senior Research Project)",
+      title:
+        "Glanceable Interfaces Literature Review (Senior Research Project)",
       description:
         "Centralized data warehouse + nightly ETL pipeline across university databases using Azure services and Power BI dashboards.",
       tech: ["Latex", "Overleaf", "Excel"],
-      links: [{ label: "Research Paper", href: "https://github.com/adamschrofel" }],
+      links: [
+        {
+          label: "Research Paper",
+          href: `${import.meta.env.BASE_URL}_ACS_4931__Adam.pdf`,
+        },
+      ],
     },
     {
       title: "Azure ETL & Analytics Platform (Senior Project)",
@@ -66,7 +96,5 @@ export const profile = {
         "Centralized data warehouse + nightly ETL pipeline across university databases using Azure services and Power BI dashboards.",
       tech: ["Azure", "ADF", "Databricks", "MySQL", "Azure SQL", "Power BI"],
     },
-    
-    
   ] as Project[],
 };
