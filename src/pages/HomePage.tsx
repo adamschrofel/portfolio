@@ -4,20 +4,23 @@ import { profile } from "../profile";
 export default function Homepage() {
   return (
     <section className="stack gap-lg">
-        <div className="HomeGrid">
-      <div className="Adam">
-        <p className="pill">{profile.lilbio}</p>
-        <h1 className="Adam__title">Hi, I’m {profile.name}.</h1>
+      <div className="HomeGrid">
+        <div className="Adam">
+          <p className="pill">{profile.lilbio}</p>
+          <h1 className="Adam__title">Hi, I’m {profile.name}.</h1>
 
-        <p className="Adam__subtitle">{profile.whaddup}</p>
-        <div className="row gap-sm">
-          <Link className="btn" to="/about">
-            About
-          </Link>
-          <Link className="btn" to="/contact">
-            Contact
-          </Link>
-        </div>
+          <p className="Adam__subtitle">{profile.whaddup}</p>
+          <div className="row gap-sm">
+            <Link className="btn" to="/about">
+              About
+            </Link>
+            <Link className="btn" to="/contact">
+              Contact
+            </Link>
+            <Link className="btn" to="/projects">
+              My Work
+            </Link>
+          </div>
         </div>
 
         <div className="HomePhotos">
