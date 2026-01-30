@@ -3,9 +3,9 @@ import { profile } from "../profile";
 export default function Contact() {
   return (
     <main style={{ padding: "2rem" }}>
-      <h1>Contact</h1>
+      <h1 className="Adam__title">Contact</h1>
       <p style={{ maxWidth: 700 }}>
-        Want to reach out? Email is best. You can also find me here:
+        Want to reach out? Email or LinkedIn work best! 
       </p>
 
       <ul style={{ lineHeight: 1.8 }}>

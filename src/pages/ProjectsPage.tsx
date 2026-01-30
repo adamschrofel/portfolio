@@ -5,9 +5,9 @@ export default function ProjectsPage() {
   return (
     <section className="stack gap-lg">
       <div className="stack gap-sm">
-        <h1>Projects</h1>
+        <h1 className="Adam__title">Projects</h1>
         <p className="muted">
-          A few things I’ve built (and I’m building). Add screenshots + links as you go.
+          A few things I’ve built (and I’m building).
         </p>
       </div>
 

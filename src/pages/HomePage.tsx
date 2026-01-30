@@ -23,9 +23,9 @@ export default function Homepage() {
         <div className="card">
           <h2>Current Projects</h2>
           <ul className="list">
-            <li>Build React/TypeScript frontends that feel fast and clean.</li>
-            <li>Create backend services (Java/Spring) and APIs.</li>
-            <li>Design data pipelines and dashboards (Azure/Power BI).</li>
+            <li>Full-stack Scrabble Helper Application including a Word Finder, Word Checker, and Board Solver</li>
+            <li>Glanceable Interfaces Literature Review (School Project)</li>
+            <li>Full-stack Poker Range Chart for Starting Hands. Working on full Solver implementation.</li>
           </ul>
         </div>
         <div className="card">
