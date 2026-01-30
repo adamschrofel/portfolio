@@ -85,6 +85,7 @@ code {
 .stack {
   display: flex;
   flex-direction: column;
+  
 }
 .row {
   display: flex;
@@ -152,6 +153,7 @@ code {
 .nav__actions {
   display: flex;
   gap: 0.6rem;
+  margin-top: 10px;
 }
 
 .btn {
@@ -183,9 +185,7 @@ code {
   width: fit-content;
 }
 
-.Adam {
-  
-}
+
 .Adam__title {
   font-size: clamp(2rem, 4vw, 3rem);
   margin: 0.4rem 0 0.35rem;
@@ -259,6 +259,10 @@ code {
 }
 .footer__links a:hover {
   color: var(--text);
+}
+h2{
+  margin-top: 0;
+  margin-bottom: 1%;
 }
 
 @media (min-width: 820px) {
