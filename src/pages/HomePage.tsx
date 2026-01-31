@@ -40,7 +40,6 @@ export default function Homepage() {
               Full-stack Scrabble Helper Application including a Word Finder,
               Word Checker, and Board Solver
             </li>
-            <li>Glanceable Interfaces Literature Review (School Project)</li>
             <li>
               Full-stack Poker Range Chart for Starting Hands. Working on full
               Solver implementation.

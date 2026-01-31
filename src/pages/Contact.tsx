@@ -5,7 +5,7 @@ export default function Contact() {
     <main style={{ padding: "2rem" }}>
       <h1 className="Adam__title">Contact</h1>
       <p style={{ maxWidth: 700 }}>
-        Want to reach out? Email or LinkedIn work best! 
+        Feel free to reach out through email or LinkedIn to collaborate or chat! 
       </p>
 
       <ul style={{ lineHeight: 1.8 }}>
@@ -40,12 +40,7 @@ export default function Contact() {
           </a>
           </div>
         </li>
-        <li>
-            <strong>Fax:</strong>{" "}
-          <a>
-            {profile.contact.fax}
-          </a>
-        </li>
+        
       </ul>
     </main>
   );

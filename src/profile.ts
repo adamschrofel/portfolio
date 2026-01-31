@@ -10,7 +10,7 @@ export const profile = {
   name: "Adam Schrofel",
   lilbio:
     "Applied Computer Science (Honours) • University of Winnipeg • Winnipeg, MB",
-  whaddup: "Welcome to my site, hope you enjoy your stay!",
+  whaddup: "Recent CS grad, currently working on my full-stack development skills. Passionate about HCI and Software Design.",
   links: {
     github: "https://github.com/adamschrofel",
     linkedin: "http://linkedin.com/in/adam-schrofel-78b1a6250",
@@ -23,8 +23,7 @@ export const profile = {
   ],
   contact: {
     email: "aschrofel10@gmail.com",
-    fax: "Recently broken but I can still be reached by carrier pigeon in the Wolseley Area",
-  },
+     },
   skills: {
     coursework: [
       "Data Structures & Algorithms",
