@@ -25,8 +25,8 @@ export default function Homepage() {
 
         <div className="HomePhotos">
           <img
-            src={`${import.meta.env.BASE_URL}photos/IMG_0186.jpeg`}
-            alt="Adam"
+            src={`${import.meta.env.BASE_URL}photos/IMG_6428.JPG`}
+            alt="Enjoying the odr with Joe Shiesty"
             loading="lazy"
           />
         </div>
@@ -37,12 +37,15 @@ export default function Homepage() {
           <h2>Current Projects</h2>
           <ul className="list">
             <li>
-              Full-stack Scrabble Helper Application including a Word Finder,
-              Word Checker, and Board Solver
+              Full-stack Scrabble helper that provides multiple scrabble tools
+              including Word Finder given set of x tiles, word validator given
+              word, and currently devloping full solver generating best plays
+              given board layout + tiles, with scoring and UI to explore
+              results.
             </li>
             <li>
-              Full-stack Poker Range Chart for Starting Hands. Working on full
-              Solver implementation.
+              Preflop Range Chart tool displays starting hands and play recommendations based on seating position. Working towards a full-stack
+              solver feature for 6-max to Full-Ring tournament style.
             </li>
           </ul>
         </div>

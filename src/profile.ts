@@ -10,7 +10,8 @@ export const profile = {
   name: "Adam Schrofel",
   lilbio:
     "Applied Computer Science (Honours) • University of Winnipeg • Winnipeg, MB",
-  whaddup: "Recent CS grad, currently working on my full-stack development skills. Passionate about HCI and Software Design.",
+  whaddup:
+    "Recent CS grad, currently working on my full-stack development skills. Passionate about HCI and Software Design. Check out my work in Projects or view the repos through my GitHub!",
   links: {
     github: "https://github.com/adamschrofel",
     linkedin: "http://linkedin.com/in/adam-schrofel-78b1a6250",
@@ -19,11 +20,11 @@ export const profile = {
   about: [
     "Recent Honours B.Sc. Applied Computer Science graduate (University of Winnipeg).",
     "Lately I've been working on my fullstack development skills, building a full scrabble solver.",
-    "Hobbies: Reading, Biking, cheering for the Montreal Canadiens, and a good pint.",
+    "Hobbies: Reading, Running, Biking, and cheering for the Montreal Canadiens.",
   ],
   contact: {
     email: "aschrofel10@gmail.com",
-     },
+  },
   skills: {
     coursework: [
       "Data Structures & Algorithms",
@@ -50,9 +51,9 @@ export const profile = {
   },
   projects: [
     {
-      title: "Scrabble Solver (Web App)",
+      title: "Scrabble Solver (WIP)",
       description:
-        "Full-stack Scrabble helper that generates valid words and best plays from a board + rack, with scoring and UI to explore results.",
+        "Full-stack Scrabble helper that provides multiple scrabble tools including Word Finder given set of x tiles, word validator given word, and currently devloping full solver generating best plays given board layout + tiles, with scoring and UI to explore results.",
       tech: [
         "React",
         "TypeScript",
@@ -72,7 +73,7 @@ export const profile = {
     {
       title: "Poker Range Parser / Solver (WIP)",
       description:
-        "Preflop Range Chart tool using. Working towards a full-stack solver feature for 6-max to Full-Ring tournament style.",
+        "Preflop Range Chart tool displays starting hands and play recommendations based on seating position. Working towards a full-stack solver feature for 6-max to Full-Ring tournament style.",
       tech: ["Java", "React", "Javascript", "Vite", "Maven", "Algorithms"],
       links: [{ label: "Repo", href: "https://github.com/adamschrofel/Poker" }],
     },
@@ -94,6 +95,12 @@ export const profile = {
       description:
         "Centralized data warehouse + nightly ETL pipeline across university databases using Azure services and Power BI dashboards.",
       tech: ["Azure", "ADF", "Databricks", "MySQL", "Azure SQL", "Power BI"],
+    },
+    {
+      title: "Portfolio Website",
+      description:
+        "Built this site using React and Typescript. Hosted using GitHub pages. ",
+      tech: ["React", "Typescript", "Vite"],
     },
   ] as Project[],
 };
