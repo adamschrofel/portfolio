@@ -75,7 +75,7 @@ export default function Homepage() {
             <div className="nav__actions">
               <a
                 className="btn btn--ghost"
-                href={`${import.meta.env.BASE_URL}AdamSchrofel_Resume.pdf`}
+                href={`${import.meta.env.BASE_URL}Adam_Schrofel_Resume.pdf`}
                 target="_blank"
                 rel=" noopener noreferrer"
               >
