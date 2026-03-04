@@ -53,20 +53,24 @@ export const profile = {
     {
       title: "Scrabble Solver (WIP)",
       description:
-        "Full-stack Scrabble helper that provides multiple scrabble tools including Word Finder given set of x tiles, word validator given word, and currently devloping full solver generating best plays given board layout + tiles, with scoring and UI to explore results.",
+        "This project is a full-stack Scrabble solver built with Java (Spring Boot) and React. It provides multiple tools for Scrabble players including rack solving, word validation, and board solving. The backend uses a Trie-based dictionary built from the CSW19 word list, allowing efficient prefix pruning during word generation. The solver evaluates legal board placements using Scrabble rules including adjacency checks, cross-checks, blank tile assignments, and score multipliers. Given a board state and rack tiles, the engine generates valid placements and ranks them by score. The application exposes this functionality through a REST API consumed by the React frontend. The backend is deployed on Render and the frontend on Vercel.",
       tech: [
         "React",
-        "TypeScript",
-        "Java",
+        "Typescript",
         "Spring Boot",
-        "Javascript",
+        "REST API",
+        "Trie",
         "Vite",
-        "Maven",
+        "Docker",
       ],
       links: [
         {
           label: "Repo",
           href: "https://github.com/adamschrofel/Scrabble-Application",
+        },
+        {
+          label: "Site",
+          href: "https://scrabble-helpers.vercel.app/",
         },
       ],
     },
