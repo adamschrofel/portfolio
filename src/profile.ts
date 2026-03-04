@@ -51,9 +51,9 @@ export const profile = {
   },
   projects: [
     {
-      title: "Scrabble Solver (WIP)",
+      title: "Scrabble Helpers",
       description:
-        "This project is a full-stack Scrabble solver built with Java (Spring Boot) and React. It provides multiple tools for Scrabble players including rack solving, word validation, and board solving. The backend uses a Trie-based dictionary built from the CSW19 word list, allowing efficient prefix pruning during word generation. The solver evaluates legal board placements using Scrabble rules including adjacency checks, cross-checks, blank tile assignments, and score multipliers. Given a board state and rack tiles, the engine generates valid placements and ranks them by score. The application exposes this functionality through a REST API consumed by the React frontend. The backend is deployed on Render and the frontend on Vercel.",
+        "Full-stack Scrabble helper web application with a Spring Boot backend and React frontend providing:\n• Rack solver for generating valid words from tiles.\n• Word validation using trie-based dictionary.\n• Board solver that evaluates board states and suggests optimal plays.\nThe backend uses a full board evaluation engine to efficiently generate and score legal moves.",
       tech: [
         "React",
         "Typescript",
@@ -104,6 +104,12 @@ export const profile = {
       title: "Portfolio Website",
       description:
         "Built this site using React and Typescript. Hosted using GitHub pages. ",
+      tech: ["React", "Typescript", "Vite"],
+    },
+    {
+      title: "The Beer Can Website e-design (WIP)",
+      description:
+        "Currently re-building The Beer Can website for popular local bar.\n\nMore coming soon... ",
       tech: ["React", "Typescript", "Vite"],
     },
   ] as Project[],

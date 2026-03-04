@@ -37,11 +37,10 @@ export default function Homepage() {
           <h2>Current Projects</h2>
           <ul className="list">
             <li>
-              Full-stack Scrabble helper that provides multiple scrabble tools
-              including Word Finder given set of x tiles, word validator given
-              word, and currently devloping full solver generating best plays
-              given board layout + tiles, with scoring and UI to explore
-              results.
+              Full-stack Scrabble helper web application, utilizes Spring Boot REST API backend and React frontend. Proivdes full board solver to evaluate board states and ranks optimal plays for a given rack of letters. 
+            </li>
+            <li>
+              Currently re-building and re-designing The Beer Can Winnipeg website. More info soon!
             </li>
             <li>
               Preflop Range Chart tool displays starting hands and play recommendations based on seating position. Working towards a full-stack

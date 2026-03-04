@@ -101,6 +101,11 @@ code {
 .muted {
   color: var(--muted);
 }
+
+/* Utility: preserve \n line breaks inside text nodes */
+.whitespace-pre-line {
+  white-space: pre-line;
+}
 .capitalize {
   text-transform: capitalize;
 }

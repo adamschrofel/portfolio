@@ -4,7 +4,10 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="card">
       <h3 className="card__title">{project.title}</h3>
-      <p className="muted">{project.description}</p>
+      {/* Preserve line breaks (\n) in project descriptions */}
+      <p className="muted whitespace-pre-line" style={{ whiteSpace: "pre-line" }}>
+        {project.description}
+      </p>
 
       <div className="tagRow">
         {project.tech.map((t) => (
